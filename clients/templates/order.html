@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../static/Semantic-UI/dist/semantic.min.css">
+    <script src="../static/jquery.js"></script>
+    <script src="../static/Semantic-UI/dist/semantic.min.js"></script>
+    <script src="../static/ractive.js"></script>
+    <style>
+        html, body {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        #map {
+            position: absolute;
+            display: flex;
+            height: 100%;
+            width: 100%;
+        }
+
+        #generator {
+            margin: 10px;
+            padding: 7px;
+            position: absolute;
+            z-index: 2;
+            background-color: #fdfdfd;
+            width: 370px;
+            border-radius: 3px;
+            box-shadow: #0a0a0b 1px 1px 10px -4px;
+        }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<div id="generator">
+    <div id="button">new</div>
+    <script id="template" type="text/ractive">
+        <p>{{ greeting }}, {{ name }}!</p>
+    </script>
+</div>
+<script>
+    inside = function (point, vs) {
+        // ray-casting algorithm based on
+        // http://www.ecse.rpi.edu/Homepages/wrf/Research/Short_Notes/pnpoly.html
+
+        var x = point[0], y = point[1];
+
+        var inside = false;
+        for (var i = 0, j = vs.length - 1; i < vs.length; j = i++) {
+            var xi = vs[i][0], yi = vs[i][1];
+            var xj = vs[j][0], yj = vs[j][1];
+
+            var intersect = ((yi > y) != (yj > y))
+                && (x < (xj - xi) * (y - yi) / (yj - yi) + xi);
+            if (intersect) inside = !inside;
+        }
+
+        return inside;
+    };
+
+    var polygon = [
+        [35.788158, 51.328564],
+        [35.766610, 51.263318],
+        [35.732402, 51.205000],
+        [35.682704, 51.229829],
+        [35.614201, 51.374178],
+        [35.617017, 51.470026],
+        [35.692083, 51.493699],
+        [35.790657, 51.491336],
+    ];
+
+    var frame = [
+        [35.605786, 51.163041],
+        [35.819318, 51.567475]
+    ];
+
+    /*var ractive = new Ractive({
+        target: '#generator',
+        template: '#template',
+        data: {greeting: 'Hello', name: 'world'}
+    });*/
+
+    var generate = function (r) {
+        var p = [
+            frame[0][0] + Math.random() * (frame[1][0] - frame[0][0]),
+            frame[0][1] + Math.random() * (frame[1][1] - frame[0][1])
+        ];
+        if (inside(p, polygon)) {
+            return p;
+        } else return generate(r)
+    };
+
+    var distance = function(v, u) {
+        var x = Math.pow(Math.abs(v[0] - u[0]), 2);
+        var y = Math.pow(Math.abs(v[1] - u[1]), 2);
+        return Math.sqrt(x + y);
+    }
+
+    var arrow = function (r) {
+        var v = generate(r);
+        while(true) {
+            u = generate(r);
+            if(true) {
+                return [v, u];
+            }
+        }
+    };
+
+    function initMap() {
+        var circle = function (center, radius, map, color) {
+            return new google.maps.Circle({
+                strokeColor: color,
+                strokeOpacity: 0.8,
+                strokeWeight: 2,
+                fillColor: color,
+                fillOpacity: 0.35,
+                map: map,
+                center: {
+                    lat: center[0],
+                    lng: center[1]
+                },
+                radius: radius
+            });
+        };
+        var rectangle = function (center, radius, map, color) {
+            radius /= 100000;
+            return new google.maps.Rectangle({
+                strokeColor: color,
+                strokeOpacity: 0.8,
+                strokeWeight: 2,
+                fillColor: color,
+                fillOpacity: 0.35,
+                map: map,
+                bounds: {
+                    north: center[0] + radius,
+                    south: center[0] - radius,
+                    east: center[1] + radius,
+                    west: center[1] - radius,
+                }
+            });
+        };
+        var triangle = function (center, radius, map, color) {
+            radius /= 100000;
+            path = [
+                {
+                    lat: center[0] + radius * 2 / 3,
+                    lng: center[1]
+                }, {
+                    lat: center[0] - radius / 2,
+                    lng: center[1] + radius * Math.sqrt(3) / 2
+                }, {
+                    lat: center[0] - radius / 2,
+                    lng: center[1] - radius * Math.sqrt(3) / 2
+                }, {
+                    lat: center[0] + radius * 2 / 3,
+                    lng: center[1]
+                }
+            ];
+            new google.maps.Polygon({
+                paths: path,
+                strokeColor: color,
+                strokeOpacity: 0.8,
+                strokeWeight: 2,
+                fillColor: color,
+                fillOpacity: 0.35,
+                map: map,
+            });
+        };
+        var Order = function(map) {
+            this.o = arrow();
+            this.order = {
+                src: this.o[0],
+                dst: this.o[1],
+                item: {
+                    name: 'huli huli',
+                    volume: 5,
+                }
+            };
+            this.show = function() {
+                var vendor = rectangle(this.o[0], 150, map, '#00ba00');
+                var applicator = triangle(this.o[1], 200, map, '#882292');
+                var line = new google.maps.Polyline({
+                    path: [{
+                        lat: this.o[0][0],
+                        lng: this.o[0][1],
+                    }, {
+                        lat: this.o[1][0],
+                        lng: this.o[1][1],
+                    }],
+                    geodesic: true,
+                    strokeColor: '#FF0000',
+                    strokeOpacity: 1.0,
+                    strokeWeight: 2,
+                    map: map,
+                });
+            };
+        };
+        var uluru = {
+            lat: 35.7018391,
+            lng: 51.3670471,
+        };
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 12,
+            center: uluru
+        });
+
+        for (var i = 0; i < polygon.length; i++) {
+            var cityCircle = circle(polygon[i], 1 * 150, map, '#ff0');
+        }
+
+        // var porter = circle(generate(), 150, map, '#00f');
+        $('#button').click(function() {
+           o = new Order(map);
+           $.post('http://localhost:5000', data=o.order, function(response) {
+               o.show();
+           });
+        });
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-ta5arJeaTbMN4-nPFcBjPUX74hk8CZI&callback=initMap">
+</script>
+</body>
+</html>

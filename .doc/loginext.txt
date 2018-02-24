@@ -1,0 +1,54 @@
+code message
+200
+201
+400
+401
+404
+405
+409
+415
+429
+500
+503
+
+authentication
+we are complete but expire (make it optional) #1.
+
+Haul ->
+    vehicle  # DONE
+        create
+        get (single)
+        get
+        update
+        delete
+    user (driver)
+        create
+        get
+        update
+        delete
+    trip
+        create
+        get
+        start
+        stop
+        -trip::track ???
+        -trip::location
+    tracker
+Mile ->
+    Order (delivery? - pickup? - return? - multi_stop?)
+        create
+        get
+            whole
+            status
+        update
+            whole
+            status
+            crates
+        cancel
+        accept
+        reject
+
+        #EPOD?
+    trip
+        start
+        stop

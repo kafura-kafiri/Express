@@ -1,0 +1,28 @@
+{
+  "username": "",
+  "password": "",
+  "firstname": "",
+  "lastname": "",
+  "cellphone": "",
+  "salt": "",
+  "privileges":{
+    "biker": {
+      "status": "",
+      "shift": {
+
+      }
+    }
+  },
+  "bank": {
+    "name": "",
+    "account": "",
+    "fee_per_order": "",
+    "fixed_salary": ""
+  },
+  "detail": {
+    "probation": "",
+    "mellicode": "",
+    "birthdate": "",
+    "sheba": ""
+  }
+}

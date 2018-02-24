@@ -1,0 +1,17 @@
+sanic
+sanic-jinja2
+motor
+pyjwt
+jinja2
+
+numpy
+sklearn
+keras
+pymongo
+
+aiohttp
+async_timeout
+
+matplotlib
+
+osrm-py

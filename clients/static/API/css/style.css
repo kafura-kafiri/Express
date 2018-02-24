@@ -1,0 +1,20 @@
+[contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    color: grey;
+    cursor: grab;
+}
+
+[contenteditable=true]:empty {
+    width: 150px;
+    cursor: grab;
+}
+
+[contenteditable=true] {
+    cursor: grab;
+    /* border: 1px dashed #AAA; */
+    padding: 5px;
+}
+
+button.__send__ {
+    background-color: blue;
+}
