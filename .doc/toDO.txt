@@ -1,7 +1,4 @@
-paper to becha for new crew.
-api.
-support #loginext(trip, driver, order) -> random forest client(porter)
+ -> temp -> markdown(api, paper) -> random forest client(porter)
 
-
-#sibeh: traffics -> #fesss -> api.
+#fesss: api.
 #shahi: prices.

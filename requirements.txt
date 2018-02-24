@@ -1,6 +1,7 @@
 sanic
 sanic-jinja2
 motor
+bson
 pyjwt
 jinja2
 
@@ -15,3 +16,5 @@ async_timeout
 matplotlib
 
 osrm-py
+
+markdown

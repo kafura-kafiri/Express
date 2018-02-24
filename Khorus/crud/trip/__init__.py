@@ -13,6 +13,15 @@ trips = config['collection']['obj'] = Bingo()
 bp = Blueprint(config['name'], url_prefix=config['path'])
 
 
+schema = {
+
+}
+
+default = {
+
+}
+
+
 @bp.route('/init/'.format(), methods=['POST', ])
 @privileges('dev', 'khorus', 'operator', )
 @retrieve(
@@ -42,25 +51,5 @@ async def init(request, payload, src_lng, src_lat, dst_lng, dst_lat, username, )
     
     return json(await trips.insert(options, payload, d, ))
 
-
-@bp.route('/<{_id}>/<{ack}>'.format(_id='_id', ack='ack', ), methods=['POST', ])
-@privileges('dev', 'porter', )
-@retrieve(
-)
-async def ack(request, payload, _id, ack, ):
-    
-    options = []
-    
-    query = {
-        "_id": ObjectId(_id)
-    }
-    
-    node = "username"
-    
-    d = payload['username']  # --username
-    
-    operator = "set"
-
-    order_result = await orders.update(options, payload, {"road_id": ObjectId(_id)}, node, d, operator)
-    road_result = await trips.update(options, payload, query, node, d, operator, )
-    return json([order_result, road_result])
+import Khorus.crud.trip.ancillary
+import Khorus.crud.trip.crud

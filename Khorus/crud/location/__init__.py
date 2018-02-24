@@ -1,32 +1,22 @@
 from Khorus.Choori.mongo import Bingo
-from Khorus.Choori.decorators import privileges, retrieve
 from Khorus.config import location as config, crud_path
-import os
 from sanic import Blueprint
-from sanic.response import json
-from Khorus.crud import prime
+from Khorus.crud import crud
 
 locations = config['collection']['obj'] = Bingo()
 bp = Blueprint(config['name'], url_prefix=config['path'])
 
+schema = {
+    "porter": '#username',
+    "c": ["#lat", "#lng"],
+    "#": []
+}
 
-@bp.route('/send-location', methods=['POST', ])
-@privileges('porter', 'dev', )
-@retrieve(
-    '<lat:num:$form:a>',
-    '<lng:num:$form:a>',
-)
-async def send_location(request, payload, lat, lng, ):
-    
-    options = [
-        "--username",
-        "--bulk",
-        "--date",
-    ]
-    
-    d = {
-        "lat": lat,
-        "lng": lng
-    }
-    
-    return json(await locations.insert(options, payload, d, ))
+default = {
+    "porter": "",
+    "c": [0, 0],
+    "#": []
+}
+
+crud(bp, locations, schema, default)
+import Khorus.crud.location.ancillary

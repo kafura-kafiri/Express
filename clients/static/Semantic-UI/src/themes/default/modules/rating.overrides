@@ -14,7 +14,6 @@
 .ui.rating .icon {
   font-family: 'Rating';
   line-height: 1;
-  height: 1em;
   backface-visibility: hidden;
   font-weight: normal;
   font-style: normal;
@@ -23,7 +22,7 @@
 
 /* Empty Star */
 .ui.rating .icon:before {
-  content: '\f006';
+  content: '\f005';
 }
 /* Active Star */
 .ui.rating .active.icon:before {

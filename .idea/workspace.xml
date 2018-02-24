@@ -1,7 +1,652 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97052de7-7bed-4fe6-aab9-5c07945735cc" name="Default" comment="" />
+    <list default="true" id="97052de7-7bed-4fe6-aab9-5c07945735cc" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.pool/Porter/.doc/toCREATE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.pool/Porter/.idea/Porter.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.pool/Porter/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.pool/Porter/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.pool/Porter/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.pool/Porter/order/order.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.pool/Porter/porter/porter.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.pool/Porter/porter/porter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/.github/ISSUE_TEMPLATE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/.github/PULL_REQUEST_TEMPLATE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/.github/stale.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/accordion.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/accordion.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/accordion.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/accordion.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/ad.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/ad.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/api.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/api.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/breadcrumb.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/breadcrumb.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/button.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/button.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/card.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/card.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/checkbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/checkbox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/checkbox.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/checkbox.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/colorize.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/colorize.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/comment.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/comment.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/container.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/container.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/dimmer.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/dimmer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/dimmer.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/dimmer.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/divider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/divider.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/dropdown.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/dropdown.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/dropdown.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/dropdown.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/embed.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/embed.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/embed.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/embed.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/feed.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/feed.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/flag.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/flag.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/form.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/form.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/form.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/grid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/grid.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/header.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/header.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/icon.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/icon.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/image.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/image.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/input.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/input.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/item.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/label.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/label.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/list.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/list.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/loader.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/loader.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/menu.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/message.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/message.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/modal.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/modal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/modal.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/modal.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/nag.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/nag.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/nag.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/nag.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/popup.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/popup.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/popup.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/popup.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/progress.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/progress.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/progress.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/progress.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/rail.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/rail.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/rating.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/rating.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/rating.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/rating.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/reset.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/reset.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/reveal.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/reveal.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/search.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/search.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/search.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/search.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/segment.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/segment.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/shape.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/shape.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/shape.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/shape.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/sidebar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/sidebar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/sidebar.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/sidebar.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/site.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/site.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/site.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/site.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/state.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/state.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/statistic.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/statistic.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/step.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/step.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/sticky.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/sticky.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/sticky.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/sticky.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/tab.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/tab.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/tab.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/tab.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/table.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/table.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/transition.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/transition.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/transition.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/transition.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/video.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/video.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/video.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/video.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/visibility.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/visibility.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/visit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/components/visit.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/semantic.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/semantic.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/semantic.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/semantic.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/basic/assets/fonts/icons.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/basic/assets/fonts/icons.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/basic/assets/fonts/icons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/basic/assets/fonts/icons.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/default/assets/fonts/icons.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/default/assets/fonts/icons.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/default/assets/fonts/icons.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/default/assets/fonts/icons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/default/assets/fonts/icons.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/default/assets/fonts/icons.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/default/assets/images/flags.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/github/assets/fonts/octicons-local.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/github/assets/fonts/octicons.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/github/assets/fonts/octicons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/github/assets/fonts/octicons.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/material/assets/fonts/icons.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/material/assets/fonts/icons.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/material/assets/fonts/icons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/material/assets/fonts/icons.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/dist/themes/material/assets/fonts/icons.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/images/avatar/nan.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/images/avatar/tom.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/images/bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/images/wireframe/centered-paragraph.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/images/wireframe/image-square.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/images/wireframe/image-text.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/images/wireframe/image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/images/wireframe/media-paragraph-alt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/images/wireframe/media-paragraph.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/images/wireframe/paragraph.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/images/wireframe/short-paragraph.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/images/wireframe/square-image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/images/wireframe/text-image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/images/wireframe/white-image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/library/iframe-content.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/library/iframe.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/library/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/assets/show-examples.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/attached.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/bootstrap.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/components/button.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/components/card.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/components/input.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/components/menu.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/components/site.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/components/table.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/fixed.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/responsive.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/sticky.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/theming.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/package-lock.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/container.overrides" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/container.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/embed.overrides" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/embed.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/container.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/embed.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/embed.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/semantic.less" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/amazon/globals/site.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/chubby/collections/menu.overrides" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/chubby/collections/menu.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/colored/modules/checkbox.overrides" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/colored/modules/checkbox.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/assets/fonts/icons.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/container.overrides" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/container.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/embed.overrides" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/embed.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/assets/fonts/octicons-local.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/assets/fonts/octicons.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/assets/fonts/octicons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/assets/fonts/octicons.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/collections/breadcrumb.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/collections/grid.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/collections/table.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/elements/header.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/elements/icon.overrides" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/elements/icon.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/elements/image.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/elements/input.overrides" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/elements/input.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/elements/label.overrides" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/elements/label.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/globals/site.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/modules/dropdown.overrides" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/modules/dropdown.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/modules/popup.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/instagram/views/card.overrides" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/instagram/views/card.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/assets/fonts/icons.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/assets/fonts/icons.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/assets/fonts/icons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/assets/fonts/icons.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/assets/fonts/icons.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/collections/menu.overrides" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/collections/menu.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/elements/icon.overrides" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/elements/icon.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/modules/dropdown.overrides" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/modules/dropdown.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/rtl/globals/site.overrides" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/rtl/globals/site.variables" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/admin/components/create.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/admin/components/init.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/admin/components/update.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/admin/distributions/create.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/admin/distributions/init.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/admin/distributions/update.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/admin/publish.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/admin/register.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/build.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/build/assets.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/build/css.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/build/javascript.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/check-install.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/clean.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/collections/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/collections/admin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/collections/build.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/collections/internal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/collections/rtl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/config/admin/github.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/config/admin/oauth.example.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/config/admin/release.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/config/admin/templates/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/config/admin/templates/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/config/admin/templates/component-package.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/config/admin/templates/composer.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/config/admin/templates/css-package.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/config/admin/templates/less-package.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/config/admin/templates/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/config/defaults.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/config/docs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/config/npm/gulpfile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/config/project/config.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/config/project/install.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/config/project/release.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/config/tasks.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/config/user.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/docs/build.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/docs/metadata.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/docs/serve.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/install.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/rtl/build.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/rtl/watch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/version.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/watch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/meteor/assets.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/meteor/fonts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/markdown/github.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/markdown/github_framework.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/static/markdown/showdown.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/templates/api/api.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/templates/api/api.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/templates/api/user_stories.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/clients/templates/showdown.html" />
+      <change beforePath="$PROJECT_DIR$/.doc/DONE.txt" afterPath="$PROJECT_DIR$/.doc/DONE.txt" />
+      <change beforePath="$PROJECT_DIR$/.doc/schema/location.json" afterPath="$PROJECT_DIR$/.doc/schema/location.json" />
+      <change beforePath="$PROJECT_DIR$/.doc/toDO.txt" afterPath="$PROJECT_DIR$/.doc/toDO.txt" />
+      <change beforePath="$PROJECT_DIR$/.idea/Express.iml" afterPath="$PROJECT_DIR$/.idea/Express.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Khorus/crud/__init__.py" afterPath="$PROJECT_DIR$/Khorus/crud/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/Khorus/crud/history/__init__.py" afterPath="$PROJECT_DIR$/Khorus/crud/history/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/Khorus/crud/location/__init__.py" afterPath="$PROJECT_DIR$/Khorus/crud/location/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/Khorus/crud/location/ancillary.py" afterPath="$PROJECT_DIR$/Khorus/crud/location/ancillary.py" />
+      <change beforePath="$PROJECT_DIR$/Khorus/crud/order/__init__.py" afterPath="$PROJECT_DIR$/Khorus/crud/order/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/Khorus/crud/order/crud.py" afterPath="$PROJECT_DIR$/Khorus/crud/order/crud.py" />
+      <change beforePath="$PROJECT_DIR$/Khorus/crud/trip/__init__.py" afterPath="$PROJECT_DIR$/Khorus/crud/trip/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/Khorus/crud/trip/crud.py" afterPath="$PROJECT_DIR$/Khorus/crud/trip/crud.py" />
+      <change beforePath="$PROJECT_DIR$/clients/bp.py" afterPath="$PROJECT_DIR$/clients/bp.py" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/.gitignore" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/.jshintrc" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/.jshintrc" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/CONTRIBUTING.md" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/GETTING-STARTED.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/LICENSE.md" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/LICENSE.md" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/README.md" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/README.md" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/RELEASE-NOTES.md" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/RELEASE-NOTES.md" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/bower.json" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/bower.json" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/composer.json" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/composer.json" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/feed.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/feed.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/feed.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/grid.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/grid.html" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/grid.html" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/homepage.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/homepage.html" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/homepage.html" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/homepage.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/images/bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/images/cat.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/images/wireframe/centered-paragraph.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/images/wireframe/image-square.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/images/wireframe/image-text.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/images/wireframe/image.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/images/wireframe/media-paragraph-alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/images/wireframe/media-paragraph.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/images/wireframe/paragraph.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/images/wireframe/short-paragraph.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/images/wireframe/square-image.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/images/wireframe/text-image.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/images/wireframe/white-image.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/kitchensink.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/examples/kitchensink.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/gulpfile.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/gulpfile.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/karma.conf.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/karma.conf.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/logo.png" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/logo.png" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/package.json" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/package.json" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/semantic.json.example" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/semantic.json.example" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/collections/breadcrumb.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/collections/breadcrumb.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/collections/breadcrumb.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/collections/breadcrumb.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/collections/form.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/collections/form.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/collections/grid.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/collections/grid.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/collections/menu.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/collections/menu.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/collections/message.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/collections/message.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/collections/table.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/collections/table.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/button.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/button.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/divider.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/divider.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/flag.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/flag.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/header.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/header.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/icon.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/icon.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/image.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/image.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/input.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/input.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/label.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/label.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/loader.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/loader.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/rail.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/rail.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/reveal.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/reveal.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/segment.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/segment.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/step.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/elements/step.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/globals/reset.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/globals/reset.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/globals/site.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/globals/site.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/checkbox.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/checkbox.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/modal.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/modal.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/modal.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/modal.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/progress.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/progress.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/rating.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/rating.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/rating.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/rating.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/search.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/search.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/search.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/search.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/sidebar.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/sidebar.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/sidebar.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/sidebar.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/sticky.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/sticky.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/sticky.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/sticky.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/transition.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/transition.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/video.overrides" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/modules/video.variables" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/behaviors/api.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/behaviors/api.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/behaviors/colorize.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/behaviors/colorize.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/behaviors/form.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/behaviors/form.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/behaviors/state.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/behaviors/state.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/behaviors/visibility.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/behaviors/visibility.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/behaviors/visit.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/behaviors/visit.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/collections/breadcrumb.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/collections/breadcrumb.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/collections/form.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/collections/form.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/collections/grid.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/collections/grid.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/collections/menu.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/collections/menu.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/collections/message.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/collections/message.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/collections/table.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/collections/table.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/button.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/button.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/divider.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/divider.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/flag.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/flag.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/header.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/header.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/icon.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/icon.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/image.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/image.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/input.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/input.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/label.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/label.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/list.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/list.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/loader.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/loader.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/rail.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/rail.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/reveal.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/reveal.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/segment.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/segment.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/step.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/elements/step.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/globals/reset.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/globals/reset.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/globals/site.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/globals/site.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/globals/site.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/globals/site.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/accordion.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/accordion.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/accordion.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/accordion.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/checkbox.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/checkbox.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/checkbox.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/checkbox.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/dimmer.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/dimmer.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/dimmer.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/dimmer.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/dropdown.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/dropdown.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/dropdown.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/dropdown.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/modal.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/modal.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/modal.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/modal.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/nag.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/nag.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/nag.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/nag.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/popup.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/popup.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/popup.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/popup.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/progress.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/progress.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/progress.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/progress.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/rating.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/rating.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/rating.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/rating.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/search.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/search.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/search.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/search.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/shape.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/shape.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/shape.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/shape.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/sidebar.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/sidebar.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/sidebar.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/sidebar.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/sticky.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/sticky.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/sticky.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/sticky.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/tab.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/tab.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/tab.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/tab.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/transition.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/transition.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/transition.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/transition.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/video.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/modules/video.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/views/ad.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/views/ad.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/views/card.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/views/card.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/views/comment.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/views/comment.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/views/feed.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/views/feed.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/views/item.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/views/item.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/views/statistic.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/definitions/views/statistic.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/theme.config.example" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/theme.config.example" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/theme.less" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/theme.less" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/amazon/elements/button.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/amazon/elements/button.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/amazon/elements/button.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/amazon/elements/button.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/basic/collections/table.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/basic/collections/table.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/basic/elements/icon.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/basic/elements/icon.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/basic/elements/icon.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/basic/elements/icon.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/basic/elements/step.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/basic/elements/step.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/basic/elements/step.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/basic/elements/step.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/basic/globals/reset.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/basic/globals/reset.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/basic/views/card.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/basic/views/card.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/bookish/elements/header.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/bookish/elements/header.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/bookish/elements/header.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/bookish/elements/header.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/bootstrap3/elements/button.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/bootstrap3/elements/button.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/chubby/collections/form.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/chubby/collections/form.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/chubby/elements/button.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/chubby/elements/button.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/chubby/elements/header.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/chubby/elements/header.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/chubby/elements/header.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/chubby/elements/header.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/classic/modules/progress.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/classic/modules/progress.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/classic/views/card.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/classic/views/card.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/assets/fonts/icons.eot" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/assets/fonts/icons.eot" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/assets/fonts/icons.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/assets/fonts/icons.svg" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/assets/fonts/icons.svg" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/assets/fonts/icons.ttf" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/assets/fonts/icons.ttf" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/assets/fonts/icons.woff" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/assets/fonts/icons.woff" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/assets/images/flags.png" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/assets/images/flags.png" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/breadcrumb.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/breadcrumb.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/breadcrumb.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/breadcrumb.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/form.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/form.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/form.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/form.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/grid.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/grid.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/grid.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/grid.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/menu.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/menu.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/menu.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/menu.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/message.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/message.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/message.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/message.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/table.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/table.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/table.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/collections/table.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/button.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/button.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/button.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/button.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/divider.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/divider.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/divider.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/divider.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/flag.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/flag.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/header.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/header.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/header.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/header.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/icon.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/icon.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/icon.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/icon.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/image.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/image.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/image.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/image.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/input.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/input.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/input.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/input.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/label.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/label.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/label.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/label.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/list.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/list.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/list.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/list.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/loader.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/loader.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/loader.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/loader.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/rail.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/rail.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/rail.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/rail.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/reveal.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/reveal.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/reveal.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/reveal.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/segment.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/segment.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/segment.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/segment.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/step.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/step.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/step.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/elements/step.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/globals/reset.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/globals/reset.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/globals/site.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/globals/site.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/accordion.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/accordion.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/accordion.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/accordion.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/chatroom.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/chatroom.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/checkbox.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/checkbox.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/checkbox.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/checkbox.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/dimmer.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/dimmer.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/dimmer.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/dimmer.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/dropdown.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/dropdown.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/dropdown.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/dropdown.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/modal.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/modal.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/modal.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/modal.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/nag.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/nag.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/popup.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/popup.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/popup.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/popup.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/progress.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/progress.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/rating.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/rating.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/rating.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/rating.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/search.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/search.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/search.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/search.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/shape.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/shape.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/shape.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/shape.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/sidebar.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/sidebar.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/sidebar.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/sidebar.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/sticky.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/sticky.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/sticky.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/sticky.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/tab.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/tab.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/transition.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/transition.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/transition.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/transition.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/video.overrides" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/modules/video.variables" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/ad.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/ad.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/card.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/card.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/comment.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/comment.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/comment.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/comment.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/feed.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/feed.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/feed.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/feed.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/item.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/item.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/item.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/item.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/statistic.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/statistic.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/statistic.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/default/views/statistic.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/fixed-width/collections/grid.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/fixed-width/collections/grid.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/flat/collections/form.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/flat/collections/form.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/flat/collections/form.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/flat/collections/form.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/flat/globals/site.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/flat/globals/site.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/collections/form.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/collections/form.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/collections/menu.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/collections/menu.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/elements/button.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/elements/button.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/elements/segment.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/elements/segment.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/elements/step.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/github/elements/step.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/elements/button.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/elements/button.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/elements/button.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/elements/button.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/elements/header.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/elements/header.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/globals/site.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/globals/site.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/modules/modal.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/material/modules/modal.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/raised/elements/button.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/raised/elements/button.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/round/elements/button.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/round/elements/button.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/timeline/views/feed.overrides" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/timeline/views/feed.overrides" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/timeline/views/feed.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/timeline/views/feed.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/twitter/elements/button.variables" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/src/themes/twitter/elements/button.variables" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/admin/docs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/admin/oauth.example.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/admin/questions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/admin/release.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/admin/release.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/admin/templates/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/admin/templates/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/admin/templates/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/admin/templates/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/banner.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/comments.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/defaults.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/gulp-settings.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/log.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/tasks/questions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/accordion.html" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/accordion.html" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/checkbox.html" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/checkbox.html" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/dropdown.html" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/dropdown.html" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/modal.html" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/modal.html" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/popup.html" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/popup.html" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/rating.html" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/rating.html" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/shape.html" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/shape.html" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/sidebar.html" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/sidebar.html" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/tab.html" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/tab.html" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/transition.html" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/transition.html" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/video.html" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/fixtures/video.html" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/helpers/jasmine-clog.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/helpers/jasmine-clog.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/helpers/jasmine-jquery.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/helpers/jasmine-jquery.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/helpers/jasmine-sinon.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/helpers/jasmine-sinon.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/helpers/jquery-events.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/helpers/jquery-events.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/helpers/sinon.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/helpers/sinon.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/accordion.spec.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/accordion.spec.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/checkbox.spec.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/checkbox.spec.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/dropdown.spec.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/dropdown.spec.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/modal.spec.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/modal.spec.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/module.spec.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/module.spec.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/popup.spec.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/popup.spec.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/search.spec.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/search.spec.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/shape.spec.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/shape.spec.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/sidebar.spec.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/sidebar.spec.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/tab.spec.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/tab.spec.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/transition.spec.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/transition.spec.js" />
+      <change beforePath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/video.spec.js" afterPath="$PROJECT_DIR$/clients/static/Semantic-UI/test/modules/video.spec.js" />
+      <change beforePath="$PROJECT_DIR$/clients/templates/api.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change beforePath="$PROJECT_DIR$/utils/__init__.py" afterPath="$PROJECT_DIR$/utils/__init__.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,76 +660,22 @@
     <SUITE FILE_PATH="coverage/Express$mu.coverage" NAME="mu Coverage Results" MODIFIED="1519420898934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Map" />
     <SUITE FILE_PATH="coverage/Express$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1519393385817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Map/osrm" />
     <SUITE FILE_PATH="coverage/Express$_khorus.coverage" NAME="_khorus Coverage Results" MODIFIED="1518883583062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Khorus" />
-    <SUITE FILE_PATH="coverage/Express$khorus.coverage" NAME="khorus Coverage Results" MODIFIED="1519371665287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Khorus" />
     <SUITE FILE_PATH="coverage/Express$express.coverage" NAME="express Coverage Results" MODIFIED="1519429197015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Express$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1519472503426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Express$khorus.coverage" NAME="khorus Coverage Results" MODIFIED="1519497879183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Khorus" />
     <SUITE FILE_PATH="coverage/Express$temp__1_.coverage" NAME="temp (1) Coverage Results" MODIFIED="1519373611163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="toDO.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.doc/toDO.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="70" lean-forward="false" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="backend.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/backend.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mu.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/mu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="express.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Khorus/crud/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="user_stories.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clients/templates/api/user_stories.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="282">
+                <caret line="64" column="16" lean-forward="false" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -95,10 +686,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -123,6 +714,7 @@
       <find>510</find>
       <find>5001</find>
       <find>5000</find>
+      <find>$.ajax</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,49 +723,29 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.doc/API/index.html" />
-        <option value="$PROJECT_DIR$/.doc/API/css/screen.css" />
-        <option value="$PROJECT_DIR$/.doc/API/css/print.css" />
-        <option value="$PROJECT_DIR$/.doc/clients/order/order.html" />
-        <option value="$PROJECT_DIR$/.doc/API/js/all.js" />
-        <option value="$PROJECT_DIR$/.doc/clients/bp.py" />
-        <option value="$PROJECT_DIR$/clients/__init__.py" />
-        <option value="$PROJECT_DIR$/clients/static/API/css/screen.css" />
-        <option value="$PROJECT_DIR$/clients/static/API/css/print.css" />
         <option value="$PROJECT_DIR$/clients/static/jsoneditor/jsoneditor.min.css" />
         <option value="$PROJECT_DIR$/clients/static/jsoneditor/jsoneditor.min.js" />
         <option value="$PROJECT_DIR$/clients/static/API/css/style.css" />
-        <option value="$PROJECT_DIR$/clients/bp.py" />
         <option value="$PROJECT_DIR$/clients/templates/api.html" />
         <option value="$PROJECT_DIR$/Khorus/temp.py" />
         <option value="$PROJECT_DIR$/Khorus/crud/history/crud.py" />
         <option value="$PROJECT_DIR$/Khorus/crud/location/crud.py" />
-        <option value="$PROJECT_DIR$/Khorus/crud/trip/crud.py" />
         <option value="$PROJECT_DIR$/Khorus/crud/user/crud.py" />
         <option value="$PROJECT_DIR$/Khorus/crud/history/ancillary.py" />
-        <option value="$PROJECT_DIR$/Khorus/crud/location/ancillary.py" />
         <option value="$PROJECT_DIR$/Khorus/crud/trip/ancillary.py" />
         <option value="$PROJECT_DIR$/Khorus/crud/user/ancillary.py" />
         <option value="$PROJECT_DIR$/Khorus/crud/vehicle/crud.py" />
         <option value="$PROJECT_DIR$/Khorus/crud/vehicle/ancillary.py" />
         <option value="$PROJECT_DIR$/Khorus/config.py" />
-        <option value="$PROJECT_DIR$/Khorus/crud/history/__init__.py" />
-        <option value="$PROJECT_DIR$/Khorus/crud/location/__init__.py" />
-        <option value="$PROJECT_DIR$/Khorus/crud/trip/__init__.py" />
         <option value="$PROJECT_DIR$/Khorus/crud/user/__init__.py" />
         <option value="$PROJECT_DIR$/Khorus/crud/vehicle/__init__.py" />
         <option value="$PROJECT_DIR$/Khorus/crud/order/ancillary.py" />
-        <option value="$PROJECT_DIR$/Khorus/crud/order/crud.py" />
-        <option value="$PROJECT_DIR$/Khorus/crud/order/__init__.py" />
         <option value="$PROJECT_DIR$/utils/pqdict.py" />
         <option value="$PROJECT_DIR$/temp.py" />
         <option value="$PROJECT_DIR$/Map/osrm/car.lua.jinja" />
         <option value="$PROJECT_DIR$/Map/osrm/__init__.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/.doc/toLIST.txt" />
         <option value="$PROJECT_DIR$/Map/michi_backend.py" />
-        <option value="$PROJECT_DIR$/.doc/toDO.txt" />
-        <option value="$PROJECT_DIR$/.doc/DONE.txt" />
         <option value="$PROJECT_DIR$/Map/osrm.py" />
         <option value="$PROJECT_DIR$/Map/loop.py" />
         <option value="$PROJECT_DIR$/Khorus/khorus.py" />
@@ -181,7 +753,27 @@
         <option value="$PROJECT_DIR$/Map/mu.py" />
         <option value="$PROJECT_DIR$/Map/backend.py" />
         <option value="$PROJECT_DIR$/Map/__init__.py" />
+        <option value="$PROJECT_DIR$/utils/__init__.py" />
+        <option value="$PROJECT_DIR$/Khorus/crud/order/__init__.py" />
         <option value="$PROJECT_DIR$/Khorus/crud/__init__.py" />
+        <option value="$PROJECT_DIR$/Khorus/crud/order/crud.py" />
+        <option value="$PROJECT_DIR$/.doc/schema/location.json" />
+        <option value="$PROJECT_DIR$/Khorus/crud/location/ancillary.py" />
+        <option value="$PROJECT_DIR$/Khorus/crud/location/__init__.py" />
+        <option value="$PROJECT_DIR$/Khorus/crud/history/__init__.py" />
+        <option value="$PROJECT_DIR$/Khorus/crud/trip/crud.py" />
+        <option value="$PROJECT_DIR$/Khorus/crud/trip/__init__.py" />
+        <option value="$PROJECT_DIR$/.doc/DONE.txt" />
+        <option value="$PROJECT_DIR$/.doc/toDO.txt" />
+        <option value="$PROJECT_DIR$/clients/static/markdown/showdown.js" />
+        <option value="$PROJECT_DIR$/clients/static/markdown/github_framework.css" />
+        <option value="$PROJECT_DIR$/clients/templates/showdown.html" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/clients/bp.py" />
+        <option value="$PROJECT_DIR$/clients/templates/api/api.md" />
+        <option value="$PROJECT_DIR$/clients/static/markdown/github.css" />
+        <option value="$PROJECT_DIR$/clients/templates/api/api.html" />
+        <option value="$PROJECT_DIR$/clients/templates/api/user_stories.md" />
       </list>
     </option>
   </component>
@@ -192,10 +784,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="57" />
-    <option name="y" value="-4" />
-    <option name="width" value="1223" />
-    <option name="height" value="804" />
+    <option name="x" value="66" />
+    <option name="y" value="30" />
+    <option name="width" value="1155" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -234,8 +826,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,21 +833,12 @@
               <item name="Express" type="b2602c69:ProjectViewProjectNode" />
               <item name="Express" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Express" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Express" type="462c0819:PsiDirectoryNode" />
-              <item name="Khorus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Express" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Express" type="462c0819:PsiDirectoryNode" />
-              <item name="Khorus" type="462c0819:PsiDirectoryNode" />
-              <item name="crud" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,16 +849,17 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/clients/static" />
+      <recent name="$PROJECT_DIR$/.pool" />
+      <recent name="$PROJECT_DIR$/clients/static/API/image" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/clients/templates/api" />
       <recent name="$PROJECT_DIR$/Map" />
       <recent name="$PROJECT_DIR$/.pool" />
       <recent name="$PROJECT_DIR$/Khorus/Choori" />
       <recent name="$PROJECT_DIR$/clients/templates" />
-      <recent name="$PROJECT_DIR$/clients/static" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/clients/static/API/image" />
-      <recent name="$PROJECT_DIR$/clients/static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -292,21 +874,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.express">
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.khorus">
+    <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Map/osrm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Express" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Map/osrm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -326,6 +908,25 @@
       <module name="Express" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/express.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="khorus" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Khorus" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Express" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Khorus/khorus.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -369,39 +970,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="temp (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Express" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.temp (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.__init__" />
-      <item index="2" class="java.lang.String" itemvalue="Python.mu" />
-      <item index="3" class="java.lang.String" itemvalue="Python.loop" />
-      <item index="4" class="java.lang.String" itemvalue="Python.express" />
+      <item index="0" class="java.lang.String" itemvalue="Python.mu" />
+      <item index="1" class="java.lang.String" itemvalue="Python.loop" />
+      <item index="2" class="java.lang.String" itemvalue="Python.express" />
+      <item index="3" class="java.lang.String" itemvalue="Python.__init__ (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.khorus" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.express" />
-        <item index="1" class="java.lang.String" itemvalue="Python.loop" />
-        <item index="2" class="java.lang.String" itemvalue="Python.mu" />
-        <item index="3" class="java.lang.String" itemvalue="Python.__init__" />
-        <item index="4" class="java.lang.String" itemvalue="Python.temp (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.khorus" />
+        <item index="1" class="java.lang.String" itemvalue="Python.__init__ (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.express" />
+        <item index="3" class="java.lang.String" itemvalue="Python.loop" />
+        <item index="4" class="java.lang.String" itemvalue="Python.mu" />
       </list>
     </recent_temporary>
   </component>
@@ -423,71 +1005,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-4" width="1223" height="804" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5029094" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36312056" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4921986" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18724447" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19705641" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5388389" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5029094" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4326241" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18724447" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287234" sideWeight="0.4970906" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287234" sideWeight="0.4970906" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5029094" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4326241" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18724447" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287234" sideWeight="0.4970906" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -504,144 +1046,195 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/clients/bp.py">
+    <entry file="file://$PROJECT_DIR$/Khorus/crud/order/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="272">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clients/templates/api.html">
+    <entry file="file://$PROJECT_DIR$/temp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="396" column="17" lean-forward="false" selection-start-line="396" selection-start-column="17" selection-end-line="396" selection-end-column="17" />
+        <state relative-caret-position="312">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clients/static/API/css/style.css">
+    <entry file="file://$PROJECT_DIR$/Map/Michi/michi.py" />
+    <entry file="file://$PROJECT_DIR$/Map/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="272">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/Choori/__main__.py">
+    <entry file="file://$PROJECT_DIR$/Map/car.lua.jinja">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/temp.py" />
-    <entry file="file://$PROJECT_DIR$/Khorus/crud/history/crud.py">
+    <entry file="file://$PROJECT_DIR$/express.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#29#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/crud/location/crud.py">
+    <entry file="file://$PROJECT_DIR$/Map/osrm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="22">
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/crud/trip/crud.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/crud/user/crud.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/crud/history/ancillary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/crud/location/ancillary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/crud/history/__init__.py">
+    <entry file="file://$PROJECT_DIR$/.doc/toDO.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.pool/Michi/mu/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Map/car.lua.jinja">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.pool/Michi/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/.pool/Michi/utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.doc/toLIST.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="71" lean-forward="false" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Khorus/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/osrm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="36" column="73" lean-forward="false" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/loop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.doc/schema/order.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/mu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="50" column="46" lean-forward="false" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Khorus/khorus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#35#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Khorus/crud/order/crud.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Khorus/crud/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/backend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Khorus/crud/location/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/crud/vehicle/ancillary.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/crud/vehicle/crud.py">
+    <entry file="file://$PROJECT_DIR$/Khorus/crud/location/ancillary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/crud/user/ancillary.py">
+    <entry file="file://$PROJECT_DIR$/Khorus/crud/history/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/crud/user/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/crud/trip/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/crud/vehicle/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -652,257 +1245,161 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/crud/order/ancillary.py">
+    <entry file="file://$PROJECT_DIR$/Khorus/crud/trip/crud.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Shahi/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/utils/pqdict.py">
+    <entry file="file://$PROJECT_DIR$/Khorus/crud/trip/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="533" column="14" lean-forward="false" selection-start-line="533" selection-start-column="14" selection-end-line="533" selection-end-column="14" />
-          <folding>
-            <element signature="e#1037#1094#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/crud/order/crud.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="595">
+          <caret line="54" column="28" lean-forward="false" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Khorus/crud/order/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="476">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp.py">
+    <entry file="file://$PROJECT_DIR$/Khorus/crud/history/ancillary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Michi/michi.py" />
-    <entry file="file://$PROJECT_DIR$/Map/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Khorus/crud/history/crud.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map/car.lua.jinja">
+    <entry file="file://$PROJECT_DIR$/.doc/schema/location.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express.py">
+    <entry file="file://$PROJECT_DIR$/Khorus/crud/user/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="106" column="4" lean-forward="true" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.doc/DONE.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map/osrm.py">
+    <entry file="file://$PROJECT_DIR$/.pool/Porter/.doc/toCREATE.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/static/markdown/github_framework.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="9249" column="5" lean-forward="false" selection-start-line="9249" selection-start-column="5" selection-end-line="9249" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/static/Semantic-UI/src/_site/views/ad.overrides">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/templates/api/_api.html" />
+    <entry file="file://$PROJECT_DIR$/clients/static/markdown/showdown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86547">
+          <caret line="5091" column="36" lean-forward="false" selection-start-line="5091" selection-start-column="36" selection-end-line="5091" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.doc/toDO.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding />
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.pool/Michi/mu/__init__.py">
+    <entry file="file://$PROJECT_DIR$/clients/templates/api/api.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/bp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="142">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Map/car.lua.jinja">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.pool/Michi/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.pool/Michi/utility.py">
+    <entry file="file://$PROJECT_DIR$/clients/static/markdown/github.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+          <caret line="5" column="409049" lean-forward="false" selection-start-line="5" selection-start-column="409049" selection-end-line="5" selection-end-column="409049" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/crud/order/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp.py">
+    <entry file="file://$PROJECT_DIR$/clients/templates/api/api.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-          </folding>
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.doc/toLIST.txt">
+    <entry file="file://$PROJECT_DIR$/clients/templates/showdown.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="71" lean-forward="false" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.doc/DONE.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/osrm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="36" column="73" lean-forward="false" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/loop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/express.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="119">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.doc/toDO.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="70" lean-forward="false" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/khorus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/mu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/backend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Khorus/crud/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/clients/templates/api/user_stories.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="282">
+            <caret line="64" column="16" lean-forward="false" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

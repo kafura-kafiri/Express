@@ -8,3 +8,4 @@ from Khorus.crud import prime
 
 histories = config['collection']['obj'] = Bingo()
 bp = Blueprint(config['name'], url_prefix=config['path'])
+prime(bp, histories, crud_path, config)

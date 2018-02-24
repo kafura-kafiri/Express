@@ -1,37 +1,12 @@
 from Khorus.Choori.decorators import privileges, retrieve
 from Khorus.crud.order import bp, orders
 from sanic.response import json
+from bson import ObjectId
+from datetime import datetime
 
 
-@bp.route('/', methods=['POST', ])
+@bp.route('/<{_id}>/@delay:<{delay}:int>'.format(_id='_id', delay='delay', ), methods=['POST', ])
 @privileges('dev', 'applicator', )
-@retrieve(
-    '<dict:form:object>',
-    '<list:form:src>',
-    '<list:form:dst>',
-    '<num:form:delay>',
-)
-async def init(request, payload, object, src, dst, delay, ):
-    options = [
-        "--date"
-    ]
-
-    d = {
-        "applicator": payload['username'],
-        "object": object,
-        "src": src,
-        "dst": dst,
-        "status": "init",
-        "delay": delay,
-    }
-
-    return json(await orders.insert(options, payload, d, ))
-
-
-@bp.route('/<{_id}>/@delay:<{delay}>'.format(_id='_id', delay='delay', ), methods=['POST', ])
-@privileges('dev', 'applicator', )
-@retrieve(
-)
 async def _delay(request, payload, _id, delay, ):
     options = []
 
@@ -50,8 +25,6 @@ async def _delay(request, payload, _id, delay, ):
 
 @bp.route('/<{_id}>/@road_id=<{road_id}>'.format(_id='_id', road_id='road_id', ), methods=['POST', ])
 @privileges('khorus', 'dev', 'operator', )
-@retrieve(
-)
 async def set_road(request, payload, _id, road_id, ):
     options = []
 
@@ -77,7 +50,7 @@ async def user_trips(request, payload, status, ):
         "--me"
     ]
 
-    today = datetime.datetime.now()
+    today = datetime.now()
     today = today.replace(hour=0, minute=0, second=0)
     query = {
         "status": status,

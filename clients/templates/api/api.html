@@ -2,9 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>UserManual</title>
+    <link href="{{ url_for('static', 'API/css/screen.css') }}" rel="stylesheet"/>
+    <link href="{{ url_for('static', 'API/css/style.css') }}" rel="stylesheet"/>
+
+    <link href="{{ url_for('static', 'markdown/github.css') }}" rel="stylesheet"/>
+    <link href="{{ url_for('static', 'markdown/github_framework.css') }}" rel="stylesheet"/>
+    <link href="{{ url_for('static', 'Semantic-UI/dist/semantic.css') }}" rel="stylesheet"/>
+
+    <script src="{{ url_for('static', 'jquery.js') }}"></script>
+    <script src="{{ url_for('static', 'Semantic-UI/dist/semantic.js') }}"></script>
 </head>
 <body>
-$END$
+<main class="ui container" style="z-index: 1">
+    {{ md | safe }}
+</main>
+{% if call %}
+    <footer style="position: fixed; z-index: 2; bottom:0; width: 100%; background-color: #0e8c8c">
+           <blockquote>
+            <p>Definition</p>
+        </blockquote>
+
+        <pre class="highlight json"><code><span class="__url__ err" contenteditable="true" placeholder="url ..."></span></code></pre>
+        <blockquote>
+            <p>Request Body</p>
+        </blockquote>
+        <pre class="highlight json"><code class="__request__" contenteditable="true"
+                                          placeholder="request as json ..."></code></pre>
+        <blockquote>
+            <p>Response</p>
+        </blockquote>
+        <pre class="highlight json"><code class="__response__"></code></pre>
+        <blockquote>
+            <p>
+            <div class="ui teal buttons">
+                <div class="ui floating labeled icon dropdown button">
+                    <span class="text">METHOD</span>
+                    <div class="menu">
+                        <div class="item">
+                            get
+                        </div>
+                        <div class="item">
+                            post
+                        </div>
+                        <div class="item">
+                            delete
+                        </div>
+                        <div class="item">
+                            put
+                        </div>
+                        <div class="item">
+                            patch
+                        </div>
+                    </div>
+                </div>
+                <div class="ui button __send__">SEND</div>
+            </div>
+            </p>
+        </blockquote>
+        <script>
+            $(function () {
+                $('.ui.dropdown')
+                    .dropdown()
+                ;
+                base = 'http://localhost:5000';
+                $('.__send__').click(function () {
+                    var method = $(this).closest(":has(.button)").find('span.text').html().trim();
+                    var url = $(this).closest(":has(.__url__)").find('.__url__').html().trim();
+                    var request = $(this).closest(":has(.__request__)").find('.__request__').html().trim();
+                    var response = $(this).closest(":has(.__response__)").find('.__response__');
+                    alert(request);
+                    $.ajax({
+                        type: method,
+                        dataType: "json",
+                        url: base + '/' + url,
+                        data: JSON.parse(request),
+                        complete: function (data) {
+                            $(response).html(JSON.stringify(data, null, 3));
+                        }
+                    });
+                });
+            });
+        </script>
+</footer>
+{% endif %}
 </body>
 </html>

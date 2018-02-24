@@ -1,2 +1,3 @@
 rename road to trip.
 support map
+schema, default S

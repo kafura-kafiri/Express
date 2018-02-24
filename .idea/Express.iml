@@ -14,7 +14,7 @@
     <option name="TEMPLATE_FOLDERS">
       <list>
         <option value="$MODULE_DIR$/Khorus/Choori/templates" />
-        <option value="$MODULE_DIR$/clients/API/templates" />
+        <option value="$MODULE_DIR$/clients/templates" />
       </list>
     </option>
   </component>

@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <script src="../static/markdown/showdown.js"></script>
+    <script src="../static/jquery.js"></script>
+    <link rel="stylesheet" href="../static/markdown/github.css"/>
+    <link rel="stylesheet" href="../static/markdown/github_framework.css"/>
 </head>
 <body>
-$END$
+<textarea></textarea>
+<div></div>
+<script>
+    var converter = new showdown.Converter();
+    $('textarea').keydown(function() {
+        var text = $(this).val();
+        html = converter.makeHtml(text);
+        console.log(html)
+        $('div').html(html);
+    });
+</script>
 </body>
 </html>

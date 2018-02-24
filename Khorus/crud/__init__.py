@@ -1,20 +1,57 @@
 from sanic.response import json
 from Khorus.Choori.decorators import extract_options, privileges, retrieve
 from Khorus.Choori.utils import render
+from copy import deepcopy
+from utils import to_list, dot_notation
+from bson import ObjectId
 
 import os
 import json as native_json
 
 
-def crud(bp, mongo, schema):
-    @bp.route('/', methods=['PUT'])
-    @bp.route('/-<options>', methods=['PUT'])
-    @extract_options()
+def crud(bp, bingo, schema, default):
+    retrieval = to_list(schema)
+    hashtags = [(feature[0], feature[1][1:]) for feature in retrieval]
+    retrieval = ['<{key}:{type}:$form:k>'.format(key=feature[0], type=feature[1][1:])
+                 for feature in retrieval if '$' in feature[1]]
+
+    @bp.route('/', methods=['POST'])
+    @bp.route('/<_id>', methods=['POST'])
     @privileges('dev')
     @retrieve(
-        '<d:dict:$form:a>'
+        *retrieval
     )
-    async def _put(request, payload, d, options):
+    async def _put(request, payload, _id=None, **kwargs):
+
+        options = [
+            "--date"
+        ]
+
+        d = deepcopy(default)
+        for key, tag in hashtags:
+            _d, key = dot_notation(d, key)
+            _d[key] = payload[tag]
+
+        if _id:
+            d['_id'] = ObjectId(_id)
+
+        for key, value in kwargs:
+            _d, key = dot_notation(d, key)
+            _d[key] = value
+        return json(await bingo.insert(options, payload, d, ))
+
+    @bp.route('/<_id>', methods=['DELETE'])
+    @privileges('dev')
+    async def _put(request, payload, _id):
+        bingo.delete(payload, {'_id': ObjectId(_id)})
+        return json({'status': 'OK'}, 200)
+
+    @bp.route('/<_id>', methods=['GET'])
+    @privileges('dev')
+    async def _put(request, payload, _id):
+        document = bingo.find(payload, {'_id': ObjectId(_id)})
+        document['_id'] = str(document['_id'])
+        return json(document)
 
 
 def prime(bp, mongo, _path, config):
