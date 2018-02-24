@@ -1,0 +1,13 @@
+open a page -> random or url of porters -> on map.
+
+what is porter? ->
+    login all.
+    set interval send location.
+    has status ->
+    receive a path.
+
+/login
+/send_location
+/::receive
+/set_status
+/{order}/set_status

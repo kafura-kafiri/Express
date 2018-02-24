@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+
+   </style>
+</head>
+<body>
+<h3>My Google Maps Demo</h3>
+<div id="map"></div>
+<script>
+   function inside(point, vs) {
+    // ray-casting algorithm based on
+    // http://www.ecse.rpi.edu/Homepages/wrf/Research/Short_Notes/pnpoly.html
+
+    var x = point[0], y = point[1];
+
+    var inside = false;
+    for (var i = 0, j = vs.length - 1; i < vs.length; j = i++) {
+        var xi = vs[i][0], yi = vs[i][1];
+        var xj = vs[j][0], yj = vs[j][1];
+
+        var intersect = ((yi > y) != (yj > y))
+            && (x < (xj - xi) * (y - yi) / (yj - yi) + xi);
+        if (intersect) inside = !inside;
+    }
+
+    return inside;
+};
+   recta
+   default = {
+      src: [],
+      dst: [],
+      item: {},
+      delay: 1,
+   }
+   items = [];
+   Order = function {
+      this.src =
+   }
+   function initMap() {
+      polylines = [];
+      var map = new google.maps.Map(document.getElementById('map'), {
+         zoom: 4,
+         center: { lat: 26.291, lng: 148.027 },
+      });
+      var allCoordinates = [
+        new google.maps.LatLng(26.291, 148.027),
+        new google.maps.LatLng(26.291, 150.027),
+        new google.maps.LatLng(22.291, 153.027),
+        new google.maps.LatLng(18.291, 153.027)
+    ];
+
+    for (var i = 0, n = allCoordinates.length; i < n; i++) {
+
+        var coordinates = new Array();
+        for (var j = i; j < i+2 && j < n; j++) {
+            coordinates[j-i] = allCoordinates[j];
+        }
+
+        var polyline = new google.maps.Polyline({
+            path: coordinates,
+            strokeColor: 'red',
+            strokeOpacity: 1.0,
+            strokeWeight: 2,
+            geodesic: true,
+            icons: [{
+                icon: {path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW},
+                offset: '100%'
+            }]
+        });
+        polyline.setMap(map);
+        polylines.push(polyline);
+
+    }
+   }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgo2ePPQ7aJ5kt7_c2aEGR2mAB1xvgfQw&callback=initMap">
+</script>
+</body>
+</html>
