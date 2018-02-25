@@ -3,15 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>UserManual</title>
-    <link href="{{ url_for('static', 'API/css/screen.css') }}" rel="stylesheet"/>
+    <!-- <link href="{{ url_for('static', 'markdown/pandoc.css') }}" rel="stylesheet"/> -->
+
+    <!-- <link href="{{ url_for('static', 'API/css/screen.css') }}" rel="stylesheet"/>
     <link href="{{ url_for('static', 'API/css/style.css') }}" rel="stylesheet"/>
 
     <link href="{{ url_for('static', 'markdown/github.css') }}" rel="stylesheet"/>
-    <link href="{{ url_for('static', 'markdown/github_framework.css') }}" rel="stylesheet"/>
-    <link href="{{ url_for('static', 'Semantic-UI/dist/semantic.css') }}" rel="stylesheet"/>
+    <link href="{{ url_for('static', 'markdown/github_framework.css') }}" rel="stylesheet"/> -->
+
 
     <script src="{{ url_for('static', 'jquery.js') }}"></script>
+    <link href="{{ url_for('static', 'Semantic-UI/dist/semantic.css') }}" rel="stylesheet"/>
     <script src="{{ url_for('static', 'Semantic-UI/dist/semantic.js') }}"></script>
+
+    <style>
+        code {
+            word-break: break-all;
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+            white-space:pre;
+            background-color: rgba(130, 130, 150, .07);
+            display: block;
+            padding: 10px;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body>
 <main class="ui container" style="z-index: 1">

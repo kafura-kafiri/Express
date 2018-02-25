@@ -20,7 +20,7 @@ user_story_md = os.path.join(user_story_md, 'templates', 'api', 'user_stories.md
 async def api(request):
     with open(api_md) as md:
         md = markdown.markdown(md.read())
-    return html(api_tmp.render(md=md, call=True))
+    return html(api_tmp.render(md=md, call=False))
 
 
 @bp.route('/USER_STORIES')
