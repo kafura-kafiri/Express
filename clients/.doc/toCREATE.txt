@@ -1,0 +1,10 @@
+open a page -> random or url of porters -> on map -> login them all. -> 70 % set status (available) -> start sending loc. (set interval).
+
+what is porter? ->
+    receive a path.
+
+/login
+/send_location
+/::receive
+/set_status
+/{order}/set_status

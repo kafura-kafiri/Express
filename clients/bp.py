@@ -7,13 +7,15 @@ import os
 
 bp = Blueprint('client', url_prefix='/clients')
 bp.static('/static', '../clients/static')
-api_env = Environment(loader=PackageLoader('clients', 'templates'))
-api_env.globals['url_for'] = lambda x, y: '/clients/{}/{}'.format(x, y)
-api_tmp = api_env.get_template('api/api.html')
+env = Environment(loader=PackageLoader('clients', 'templates'))
+env.globals['url_for'] = lambda x, y: '/clients/{}/{}'.format(x, y)
+api_tmp = env.get_template('api/api.html')
 api_md = os.path.dirname(__file__)
 api_md = os.path.join(api_md, 'templates', 'api', 'api.md')
 user_story_md = os.path.dirname(__file__)
 user_story_md = os.path.join(user_story_md, 'templates', 'api', 'user_stories.md')
+
+forest_tmp = env.get_template('forest/forest.html')
 
 
 @bp.route('/API')
@@ -28,6 +30,14 @@ async def api(request):
     with open(user_story_md) as md:
         md = markdown.markdown(md.read())
     return html(api_tmp.render(md=md, call=False))
+
+
+@bp.route('/FOREST/<porters>')
+@bp.route('/FOREST')
+async def forest(request, porters=''):
+    porters = porters.split(';')
+    porters = [p.split(',') for p in porters]
+    return html(forest_tmp.render(porters=porters))
 
 
 @bp.route('/test', methods=['POST', 'GET', 'DELETE', 'PUT', 'PATCH'])

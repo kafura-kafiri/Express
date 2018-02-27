@@ -29,10 +29,10 @@ Haul ->
     trip
         create
         get
-        start
-        stop
-        -trip::track ???
-        -trip::location
+        start #-#?
+        stop #-#?
+        -trip::track #?
+        -trip::location #?
     tracker
 Mile ->
     Order (delivery? - pickup? - return? - multi_stop?)
@@ -43,12 +43,12 @@ Mile ->
         update
             whole
             status
-            crates
-        cancel
-        accept
-        reject
+            crates -
+        cancel -
+        accept -in trip
+        reject -in trip
 
-        #EPOD?
+        #EPOD??? ##
     trip
-        start
-        stop
+        start $#?
+        stop $#?

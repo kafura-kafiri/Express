@@ -6,7 +6,7 @@ from threading import Thread
 
 class Cache:
     def __init__(self, max_size=100000):
-        self.q = list()
+        self.q = {}
         self.pd = pqdict(key=lambda x: x['_lru'])
         self.max_size = max_size
 
@@ -16,7 +16,7 @@ class Cache:
         if key not in self.pd:
             if len(self.pd) == self.max_size:
                 key, value = self.pd.popitem()
-                self.q.append((key, value, '-'))
+                self.q[(key, '-')] = value
 
         if not node:
             value['_lru'] = time.time()
@@ -31,7 +31,7 @@ class Cache:
             v[node] = value
             self.pd[key]['_lru'] = time.time()
 
-        self.q.append((key, self.pd[key], '+'))
+        self.q[(key, '+')] = self.pd[key]
 
     """
     def sync(collection, node, d):
@@ -64,12 +64,12 @@ class CacheAlert:
             data = {}
             for name, t in self.temps.items():
                 if t.q:
-                    data[name] = []
-                    data[name].extend(t.q)
+                    data[name] = {}
+                    data[name].update(t.q)
                     t.q.clear()
             if data:
                 self.alert(data)
-                sleep += 9
+                sleep += 19
             time.sleep(sleep)
 
 

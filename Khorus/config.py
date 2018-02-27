@@ -45,6 +45,7 @@ def setup(app):
                 j['collection']['obj'].collection = collection
 
 
+
 user = {
     'name': 'user',
     'path': 'users',

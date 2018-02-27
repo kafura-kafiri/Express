@@ -1,6 +1,7 @@
 from Khorus.Choori.mongo import Bingo
 from Khorus.Choori.decorators import privileges, retrieve
 from Khorus.config import user as config, crud_path
+from temp import users as cached_users
 import os
 from sanic import Blueprint
 from sanic.response import json
@@ -9,6 +10,15 @@ import datetime
 
 bp = Blueprint(config['name'], url_prefix=config['path'])
 users = config['collection']['obj'] = Bingo()
+
+
+@bp.listener('before_server_start')
+async def init(sanic, loop):
+    _users = await users.find([], {}, {
+        'privileges.porter': {'$exists': True}
+    })
+    for user in _users:
+        cached_users.sync(user['username'], user)
 
 
 @bp.route('/init'.format(), methods=['POST', ])

@@ -7,17 +7,16 @@ from bson import ObjectId
 
 import os
 import json as native_json
+'''
 
-
-def crud(bp, bingo, schema, default):
     retrieval = to_list(schema)
-    hashtags = [(feature[0], feature[1][1:]) for feature in retrieval]
+    hashtags = [(feature[0], feature[1][1:]) for feature in retrieval if '#' in feature[1]]
     retrieval = ['<{key}:{type}:$form:k>'.format(key=feature[0], type=feature[1][1:])
                  for feature in retrieval if '$' in feature[1]]
 
     @bp.route('/', methods=['POST'])
     @bp.route('/<_id>', methods=['POST'])
-    @privileges('dev')
+    @privileges('dev', 'operator', 'applicator')
     @retrieve(
         *retrieval
     )
@@ -35,25 +34,15 @@ def crud(bp, bingo, schema, default):
         if _id:
             d['_id'] = ObjectId(_id)
 
-        for key, value in kwargs:
+        for key, value in kwargs.items():
             _d, key = dot_notation(d, key)
             _d[key] = value
-        return json(await bingo.insert(options, payload, d, ))
+        j = json(await bingo.insert(options, payload, d, ))
+        if cache:
+            cache.sync(d[cache.key], d)
+        return j
 
-    @bp.route('/<_id>', methods=['DELETE'])
-    @privileges('dev')
-    async def _put(request, payload, _id):
-        bingo.delete(payload, {'_id': ObjectId(_id)})
-        return json({'status': 'OK'}, 200)
-
-    @bp.route('/<_id>', methods=['GET'])
-    @privileges('dev')
-    async def _put(request, payload, _id):
-        document = bingo.find(payload, {'_id': ObjectId(_id)})
-        document['_id'] = str(document['_id'])
-        return json(document)
-
-
+'''
 def prime(bp, mongo, _path, config):
     def repr(config):
         from copy import deepcopy

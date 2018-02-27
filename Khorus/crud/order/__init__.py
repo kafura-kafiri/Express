@@ -4,7 +4,7 @@ from Khorus.config import order as config, crud_path
 import os
 from sanic import Blueprint
 from sanic.response import json
-from Khorus.crud import prime, crud
+from Khorus.crud import prime
 from bson import ObjectId
 import datetime
 
@@ -61,6 +61,5 @@ default = {
     #  "porter": ""
 }
 
-crud(bp, orders, schema, default)
 import Khorus.crud.order.crud
 import Khorus.crud.order.ancillary

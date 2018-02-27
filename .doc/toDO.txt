@@ -1,4 +1,11 @@
- -> temp -> markdown(api, paper) -> random forest client(porter)
+rename all username to user
 
+ > #loginext -> random forest client(porter) -> temp -> #cvrp -> gcm.
+ | locations: |
+ |   (+order, |
+ |   +user,   |
+ |   -trip)   |
+ | get_status^|
+ |            |
 #fesss: api.
 #shahi: prices.

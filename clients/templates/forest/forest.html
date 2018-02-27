@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../static/Semantic-UI/dist/semantic.min.css">
+    <script src="{{ url_for('static', 'jquery.js') }}"></script>
+    <script src="{{ url_for('static', 'ractive.js') }}"></script>
+    <script src="{{ url_for('static', 'Semantic-UI/dist/semantic.min.js') }}"></script>
+    <script src="{{ url_for('static', 'FOREST/js/utils.js') }}"></script>
+    <script src="{{ url_for('static', 'FOREST/js/shapes.js') }}"></script>
+    {% include 'forest/config.html' %}
+    <script src="{{ url_for('static', 'FOREST/js/order.js') }}"></script>
+    <script src="{{ url_for('static', 'FOREST/js/porter.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', 'FOREST/css/style.css') }}">
+</head>
+<body>
+<div id="map"></div>
+<div id="generator">
+    <div id="button">new</div>
+    <script id="template" type="text/ractive">
+        <p>{{ greeting }}, {{ name }}!</p>
+    </script>
+</div>
+<script src="{{ url_for('static', 'FOREST/js/forest.js') }}"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-ta5arJeaTbMN4-nPFcBjPUX74hk8CZI&callback=initMap">
+</script>
+</body>
+</html>

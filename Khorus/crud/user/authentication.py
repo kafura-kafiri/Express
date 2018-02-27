@@ -46,7 +46,7 @@ async def create_key(request, username, password):
         {
             'username': user['username'],
             'privileges': user['privileges']
-        }, 'secret', algorithm='HS256'))
+        }, 'secret', algorithm='HS256').decode('utf-8'))
 
 
 @bp.route('/logout', methods=['POST'])

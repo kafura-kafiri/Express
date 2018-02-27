@@ -1,3 +1,5 @@
+from utils.pqdict import pqdict
+
 def to_list(schema, prefix='', delimiter='.'):
     if not isinstance(schema, list) and not isinstance(schema, dict):
         return [(prefix, schema)]
@@ -11,10 +13,15 @@ def to_list(schema, prefix='', delimiter='.'):
 def dot_notation(_dict, key):
     keys = key.split('.')
     for key in keys[:-1]:
-        if key not in _dict:
-            _dict[key] = {}
+        if isinstance(_dict, dict) or isinstance(_dict, pqdict):
+            if key not in _dict:
+                _dict[key] = {}
+        else:
+            key = int(key)
+            while len(_dict) <= key:
+                _dict.append({})
         _dict = _dict[key]
-    return _dict, keys[-1]
+    return (_dict, keys[-1]) if isinstance(_dict, dict) else (_dict, int(keys[-1]))
 
 
 if __name__ == '__main__':
