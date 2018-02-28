@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-from Choori.utility import set_password
+from Khorus.Choori.utils import set_password
 from copy import deepcopy
 from bson import ObjectId
 import datetime
@@ -100,26 +100,34 @@ users.insert_many([pouria, mohsen, behruz, khorus, shahin])
 
 print([user for user in users.find({})])
 
+
 order = {
-  "object": {
-    "code": "911",
-    "detail": "sos be zan",
-    "#": ["big"]
-  },
-  "src": [35.787306, 51.415609, "پلاک ۲۰ زیر زمین"],
-  "dst": [35.784843, 51.417326, "پلاک ۱ طبقه پنج واحد ۱۰"],
-  "status": "[init, auto_dispatched, dispatched, porting, delivered]",
-  "delay": 0,
-  # "road_id": ObjectId(),
-  # "username": "mohsen",
-  "applicator": "",
+    'item': {
+        'id': '911',
+        "detail": 'sos be zan',
+        "#": ["Big"],
+        'volume': 0,
+    },
+    'applicator': {
+        'id': '',
+        'phone': '',
+    },
+    'map': {
+        "src": [35.787306, 51.415609, "پلاک ۲۰ زیر زمین"],
+        "dst": [35.784843, 51.417326, "پلاک ۱ طبقه پنج واحد ۱۰"],
+    },
+    'type': 0,
+    "status": 0,
+    "delay": 0,
+    #  "trip_id": "",
+    #  "porter": ""
 }
 
 _yesterday = datetime.datetime.now() - datetime.timedelta(days=1, hours=1)
 jordan_1 = deepcopy(order)
 
-jordan_1['status'] = 'init'
-jordan_1['applicator'] = shahin['username']
+jordan_1['status'] = 0
+jordan_1['applicator']['id'] = shahin['username']
 jordan_1['delay'] = 36 * 60
 jordan_1["_date"] = _yesterday
 jordan_2 = deepcopy(jordan_1)
@@ -130,13 +138,13 @@ jordan_3["_date"] = _yesterday + datetime.timedelta(days=1)
 jordan_3['delay'] = 10 * 60
 
 ferdous_1 = deepcopy(jordan_1)
-ferdous_1['applicator'] = pouria['username']
-ferdous_1['dst'] = [35.723267, 51.320185, ""]
+ferdous_1['applicator']['id'] = pouria['username']
+ferdous_1['map']['dst'] = [35.723267, 51.320185, ""]
 ferdous_1["_date"] = _yesterday + datetime.timedelta(days=1)
 
-jordan_1['username'] = 'mohsen'
-jordan_1['status'] = 'delivered'
-jordan_3['username'] = 'mohsen'
+jordan_1['porter'] = 'mohsen'
+jordan_1['status'] = 4
+jordan_3['porter'] = 'mohsen'
 
 orders.delete_many({})
 orders.insert_many([jordan_1, jordan_2, jordan_3, ferdous_1])

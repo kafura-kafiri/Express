@@ -1,7 +1,7 @@
 import osrm
 import time
 import numpy as np
-from Map.loop import flag, base_port, mus
+from Map.loop import flag, osrm_port, mus
 
 
 async def osrm_route(src, dst, reverse=False, amortized=False):
@@ -14,7 +14,7 @@ async def osrm_route(src, dst, reverse=False, amortized=False):
             T += r['routes'][0]['duration']
         X /= len(expected_routes)
         T /= len(expected_routes)
-    client = osrm.AioHTTPClient(host='http://localhost:{}'.format(base_port + flag.value))
+    client = osrm.AioHTTPClient(host='http://localhost:{}'.format(osrm_port.value + flag.value))
     response = []
     for s in src:
         r = await client.route(

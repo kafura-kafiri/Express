@@ -6,7 +6,7 @@ import os
 
 
 bp = Blueprint('client', url_prefix='/clients')
-bp.static('/static', '../clients/static')
+bp.static('/static', 'clients/static')
 env = Environment(loader=PackageLoader('clients', 'templates'))
 env.globals['url_for'] = lambda x, y: '/clients/{}/{}'.format(x, y)
 api_tmp = env.get_template('api/api.html')
@@ -37,6 +37,7 @@ async def api(request):
 async def forest(request, porters=''):
     porters = porters.split(';')
     porters = [p.split(',') for p in porters]
+    print(porters)
     return html(forest_tmp.render(porters=porters))
 
 

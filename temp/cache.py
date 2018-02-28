@@ -69,7 +69,7 @@ class CacheAlert:
                     t.q.clear()
             if data:
                 self.alert(data)
-                sleep += 19
+                sleep += 9
             time.sleep(sleep)
 
 

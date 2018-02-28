@@ -19,3 +19,4 @@ osrm-py
 
 markdown
 pympler
+scipy
