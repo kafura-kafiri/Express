@@ -1,0 +1,7 @@
+cache.user can retrieve doc from db.
+test.
+dot notation -> "coordinates": {
+            "0": 1.2,
+            "1": 2.1
+        }
+

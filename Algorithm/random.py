@@ -13,9 +13,6 @@ def loop():
         adj[e.v].append(e.u)
         adj[e.v] = (e.u, e.weight)
 
-    print('************************************')
-    print('************************************')
-    
     for i in range(n_size.value):
         print(i, adj[i])
     time.sleep(5)

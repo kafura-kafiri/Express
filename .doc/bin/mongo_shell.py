@@ -147,7 +147,7 @@ jordan_1['status'] = 4
 jordan_3['porter'] = 'mohsen'
 
 orders.delete_many({})
-orders.insert_many([jordan_1, jordan_2, jordan_3, ferdous_1])
+# orders.insert_many([jordan_1, jordan_2, jordan_3, ferdous_1])
 
 print([order for order in orders.find({})])
 
@@ -164,7 +164,7 @@ road = {
 roads.delete_many({})
 roads.insert_one(road)
 jordan_1['road_id'] = road['_id']
-orders.save(jordan_1)
+# orders.save(jordan_1)
 
 location_1 = {
     "p": [0, 0],

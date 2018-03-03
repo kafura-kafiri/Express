@@ -38,8 +38,8 @@ def update(json):
     # append to N -> X
     for _id, o in orders.items():
         _id = _id[0]
-        src = o['map']['src']
-        dst = o['map']['dst']
+        src = o['transmitter']['coordinates']
+        dst = o['receiver']['coordinates']
         n1 = Node()
         n1.lat = src[0]
         n1.lng = src[1]

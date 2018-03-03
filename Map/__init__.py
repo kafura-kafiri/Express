@@ -3,6 +3,7 @@ from sanic.response import json as jresponse, text
 from Map.backend import osrm_route
 import ujson as json
 import numpy as np
+from Map.loop import mus
 
 bp = Blueprint('map', url_prefix='/map')
 
@@ -33,8 +34,21 @@ async def fit(request):
     return jresponse({'status': 'OK'})
 
 
-@bp.route('/mu', methods=['POST'])
-async def extend(request):
+@bp.route('/mu/<side>/<coordinates>', methods=['GET'])
+async def extend(request, side, coordinates):
+    side = {
+        't': 0,
+        'r': 1,
+        'transmitter': 0,
+        'receiver': 1,
+        '0': 0,
+        '1': 1
+    }[side]
+    mu = mus[side]
+    coordinates = coordinates.split(';')
+    coordinates = [p.split(',') for p in coordinates]
+    coordinates = [[float(x) for x in p] for p in coordinates]
+    return json([mu.query(c) for c in coordinates])
     points = request.form['points']
     X = np.array(json.load(points))
     X = X.astype('float32')

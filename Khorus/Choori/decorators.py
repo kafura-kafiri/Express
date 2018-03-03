@@ -106,7 +106,7 @@ def retrieve(*requirements):
                             return response.json({'status': 'type mismatch'}, 404)
                 finally:
                     if param is None:
-                        return response.json({'status': "can't retrieve"})
+                        return response.json({'status': "can't retrieve, {}".format(requirement)})
                 if dst == 'a' and src != '$uri':
                     _args.append(param)
                 elif dst == 'k':

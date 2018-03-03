@@ -12,16 +12,21 @@ def to_list(schema, prefix='', delimiter='.'):
 
 def dot_notation(_dict, key):
     keys = key.split('.')
-    for key in keys[:-1]:
+    for i, key in enumerate(keys[:-1]):
         if isinstance(_dict, dict) or isinstance(_dict, pqdict):
             if key not in _dict:
-                _dict[key] = {}
+                _dict[key] = [] if keys[i + 1][0].isdigit() else {}
         else:
             key = int(key)
             while len(_dict) <= key:
-                _dict.append({})
+                _dict.append([] if keys[i + 1][0].isdigit() else {})
         _dict = _dict[key]
-    return (_dict, keys[-1]) if isinstance(_dict, dict) else (_dict, int(keys[-1]))
+    if isinstance(_dict, dict):
+        return _dict, keys[-1]
+    key = int(keys[-1])
+    while len(_dict) <= key:
+        _dict.append([] if keys[i + 1][0].isdigit() else {})
+    return _dict, int(keys[-1])
 
 
 if __name__ == '__main__':

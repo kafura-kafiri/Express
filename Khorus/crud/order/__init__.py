@@ -1,65 +1,25 @@
-from Khorus.Choori.mongo import Bingo
-from Khorus.Choori.decorators import privileges, retrieve
-from Khorus.config import order as config, crud_path
-import os
+import asyncio
+import time
+
+import numpy as np
 from sanic import Blueprint
-from sanic.response import json
-from Khorus.crud import prime
-from bson import ObjectId
-import datetime
+
+from Khorus.Choori.mongo import Bingo
+from Khorus.config import order as config
+from Map.loop import mus
+from Map.mu import Mu
+from temp import orders as cached_orders
 
 orders = config['collection']['obj'] = Bingo()
+cached_orders.fetch = lambda x: orders.find([], {}, {
+    'crate.id': x
+})
 bp = Blueprint(config['name'], url_prefix=config['path'])
 
-urls = [
-    ('/', 'POST'),
-    ('/<_id>', 'GET'),
-    ('/<_id>', 'PUT'),
-]
 
-schema = {
-    'item': {
-        'id': '$str',
-        "detail": "",
-        "#": [],
-        'volume': '$int',
-    },
-    'applicator': {
-        'id': '#username',
-        'phone': '$str',
-    },
-    'map': {
-        'src': ['$num', '$num', "*str"],
-        'dst': ['$num', '$num', "*str"]
-    },
-    'type': '$int',
-    "status": "$int",
-    "delay": "*int",
-    #  "trip_id": "",
-    #  "porter": ""
-}
-
-default = {
-    'item': {
-        'id': '',
-        "detail": '',
-        "#": [],
-        'volume': 0,
-    },
-    'applicator': {
-        'id': '',
-        'phone': '',
-    },
-    'map': {
-        'src': [0, 0],
-        'dst': [0, 0]
-    },
-    'type': 0,
-    "status": 0,
-    "delay": 0,
-    #  "trip_id": "",
-    #  "porter": ""
-}
+@bp.listener('before_server_start')
+async def init(sanic, loop):
+    pass
 
 import Khorus.crud.order.crud
 import Khorus.crud.order.ancillary

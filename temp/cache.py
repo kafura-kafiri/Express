@@ -50,6 +50,15 @@ class Cache:
         v['_lru'] = time.time()
         return v
 
+    async def retrieve(self, key):
+        try:
+            v = self.pd[key]
+            v['_lru'] = time.time()
+        except:
+            v = (await self.fetch(key))[0]
+            self.sync(key, v)
+        return v
+
 
 class CacheAlert:
     def __init__(self, alert, **kwargs):

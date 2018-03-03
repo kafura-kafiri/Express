@@ -1,0 +1,20 @@
+
+	"portage": {
+		"by": "suarez", <- with time line 2
+	},
+	"time": {
+		"delay": 0, <- with time line
+	},
+	"applicator": {
+		"username": {},
+		"cellphone": "",
+		"first_name": "",
+    	"last_name": ""
+	},
+	"space": {
+		"src": [],
+		"dst": [],
+	},
+
+crate.detail
+crate.#

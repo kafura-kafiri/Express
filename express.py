@@ -8,3 +8,4 @@ if __name__ == '__main__':
     p.start()
     app.run(port=5000, workers=1, debug=True)
     osrm.join()
+    p.join()
