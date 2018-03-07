@@ -19,7 +19,7 @@ bp = Blueprint(config['name'], url_prefix=config['path'])
 
 @bp.listener('before_server_start')
 async def init(sanic, loop):
-    pass
+    await orders.delete([], {}, {})
 
 import Khorus.crud.order.crud
 import Khorus.crud.order.ancillary

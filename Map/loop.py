@@ -17,14 +17,14 @@ mus = []
 def loop():
     p = []
     while True:
-        p.append(run_osrm(osrm_port.value + flag.value))
+        p.append(run_osrm(osrm_port.value + 1 - flag.value))
         flag.value = 1 - flag.value
         if len(p) > 1:
             p[0].terminate()
             p = p[1:]
 
         orders = MongoClient()[db_name][order['collection']['name']]
-        _orders = orders.find([], {}, {})  # bad smell <-
+        _orders = orders.find({})  # bad smell <-
         r = [
             [
                 *o['receiver']['coordinates'],

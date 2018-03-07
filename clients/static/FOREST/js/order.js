@@ -33,19 +33,35 @@ var Order = function (map) {
         $.post('/orders/',
             {
                 key: key,
-                'item.id': 'pesteh',
-                'item.volume': 3,
-                'applicator.phone': "'09133657623'",
-                'map.src.0': 0,
-                'map.src.1': 0,
-                'map.dst.0': 1,
-                'map.dst.1': 1,
-                'type': 3,
-                'status': 0,
+                volume: 23,
+                transmitter_username: 'a',
+                transmitter_phone: '+989133657623',
+                transmitter_first_name: 'a',
+                transmitter_last_name: 'ai',
+                transmitter_lat: this.o[0][0],
+                transmitter_lng: this.o[0][1],
+                receiver_username: 'b',
+                receiver_phone: '+989133657623',
+                receiver_first_name: 'b',
+                receiver_last_name: 'bi',
+                receiver_lat: this.o[1][0],
+                receiver_lng: this.o[1][1],
+                order_id: 'e'
+                // 'item.id': 'pesteh',
+                // 'item.volume': 3,
+                // 'applicator.phone': "'09133657623'",
+                // 'map.src.0': 0,
+                // 'map.src.1': 0,
+                // 'map.dst.0': 1,
+                // 'map.dst.1': 1,
+                // 'type': 3,
+                // 'status': 0,
             },
             function() {
                 o.show();
                 orders.push(this)
+            }).fail(function(response) {
+                alert('Error: ' + response.responseText);
             });
     }
 };

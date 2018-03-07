@@ -4,6 +4,8 @@ from Map.backend import osrm_route
 import ujson as json
 import numpy as np
 from Map.loop import mus
+import numpy as np
+import matplotlib.pyplot as plt
 
 bp = Blueprint('map', url_prefix='/map')
 
@@ -53,3 +55,38 @@ async def extend(request, side, coordinates):
     X = np.array(json.load(points))
     X = X.astype('float32')
     # TODO
+
+
+@bp.route('/contour/<lat>,<lng>', methods=['GET'])
+async def contour(request, lat, lng):
+    lat = float(lat)
+    lng = float(lng)
+    dst = [lat, lng]
+    n = 21
+    scale = float((n - 1) / 2 * 100)
+    x, y = np.meshgrid(np.arange(n), np.arange(n))
+    x = x.astype('float32')
+    y = y.astype('float32')
+    half = (n - 1) / 2 * np.ones([n, n])
+    x -= half
+    y -= half
+    x /= scale
+    y /= scale
+    x += lng * np.ones([n, n])
+    y += lat * np.ones([n, n])
+    x = x.reshape(n * n)
+    y = y.reshape(n * n)
+    src = np.array([y, x])
+    src = src.transpose()
+    routes = await osrm_route(src, dst, reverse=False)
+    # for s in src:
+    #     print(s, dst)
+    #     routes = await osrm_route([s], dst, reverse=False)
+    #     r = routes[0]
+    #     print(r)
+    routes = [r['routes'][0]['distance'] for r in routes]
+    cs = plt.contourf(x.reshape(n, n), y.reshape(n, n), np.array(routes).reshape(n, n), corner_mask=False)
+    # cs = plt.contourf(x, y, routes, [4, 4.001], corner_mask=False)
+    # print(cs.allsegs)
+    plt.show()
+    return jresponse(4)

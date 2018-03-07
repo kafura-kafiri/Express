@@ -18,7 +18,7 @@ class String(ctypes.Structure):
 
 class Edge(ctypes.Structure):
     _fields_ = [
-        ('weight', ctypes.c_long),
+        ('weight', ctypes.c_float),
         ('v', ctypes.c_long),
         ('u', ctypes.c_long)
     ]

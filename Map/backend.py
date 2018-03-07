@@ -18,7 +18,7 @@ async def osrm_route(src, dst, reverse=False, amortized=False):
     response = []
     for s in src:
         r = await client.route(
-            coordinates=[s, dst] if not reverse else [dst, s],
+            coordinates=[[s[1], s[0]], [dst[1], dst[0]]] if not reverse else [[dst[1], dst[0]], [s[1], s[0]]],
             overview=osrm.overview.full,
             steps=True,
             geometries=osrm.geometries.polyline,

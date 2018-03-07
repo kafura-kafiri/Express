@@ -4,6 +4,7 @@ from utils import dot_notation
 from threading import Thread
 
 
+
 class Cache:
     def __init__(self, max_size=100000):
         self.q = {}
@@ -13,10 +14,12 @@ class Cache:
     def sync(self, node, value):
         node = node.split('.')
         key, node = node[0], '.'.join(node[1:])
+        flag = False
         if key not in self.pd:
+            flag = True
             if len(self.pd) == self.max_size:
                 key, value = self.pd.popitem()
-                self.q[(key, '-')] = value
+                self.q[(key, '-')] = value, node
 
         if not node:
             value['_lru'] = time.time()
@@ -27,11 +30,11 @@ class Cache:
                 self.pd[key] = {
                     '_lru': time.time()
                 }
-            v, node = dot_notation(self.pd, key + '.' + node)
+            v, node, flag = dot_notation(self.pd, key + '.' + node)
             v[node] = value
             self.pd[key]['_lru'] = time.time()
 
-        self.q[(key, '+')] = self.pd[key]
+        self.q[(key, '+' if flag else '$')] = self.pd[key], node
 
     """
     def sync(collection, node, d):
@@ -78,7 +81,7 @@ class CacheAlert:
                     t.q.clear()
             if data:
                 self.alert(data)
-                sleep += 9
+                sleep += 2
             time.sleep(sleep)
 
 

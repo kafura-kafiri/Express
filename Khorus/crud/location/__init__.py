@@ -17,4 +17,9 @@ default = {
     "#": []
 }
 
+
+@bp.listener('before_server_start')
+async def init(sanic, loop):
+    await locations.delete([], {}, {})
+
 import Khorus.crud.location.ancillary

@@ -8,6 +8,8 @@ function Porter(marker, username, password) {
         $.post('/key', {'username': p.username, 'password': p.password}, function(key) {
             p.key = key;
             console.log(key);
+        }).fail(function(response) {
+            alert('Error: ' + response.responseText);
         });
     };
 

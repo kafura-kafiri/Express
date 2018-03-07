@@ -32,15 +32,14 @@ def run_osrm(port):
     j2_env = Environment(loader=FileSystemLoader(self_dir), trim_blocks=True)
     # with open(os.path.join(osrm_dir, 'profiles', 'car.lua'), 'w+') as f:
     #    f.write(j2_env.get_template('car.lua.jinja').render(weather=weather))
-    subprocess.call(['osrm-extract ../map.osm -p profiles/car.lua'], cwd=osrm_dir, shell=True)
-    subprocess.call(['osrm-contract ../map.osrm'], cwd=osrm_dir, shell=True)
-    subprocess.call(['osrm-customize ../map.osrm'], cwd=osrm_dir, shell=True)
-    p = subprocess.Popen(['osrm-routed ../map.osrm --algorithm=MLD --port={}'.format(port)], cwd=osrm_dir, shell=True)
-    # p = subprocess.call(['osrm-extract ../map.osm'], cwd=osrm_dir, shell=True)
-    # p = subprocess.call(['osrm-partition ../map.osm'], cwd=osrm_dir, shell=True)
-    # p = subprocess.call(['osrm-customize ../map.osm'], cwd=osrm_dir, shell=True)
-    # p = subprocess.call(['osrm-customize ../map.osm'], cwd=osrm_dir, shell=True)
-    # p = subprocess.Popen(['osrm-routed --algorithm=MLD ../map.osrm --port={}'.format(port)], cwd=osrm_dir, shell=True)
+    # subprocess.call(['osrm-extract ../map.osm -p profiles/car.lua'], cwd=osrm_dir, shell=True)
+    # subprocess.call(['osrm-contract ../map.osrm'], cwd=osrm_dir, shell=True)
+    # subprocess.call(['osrm-customize ../map.osrm'], cwd=osrm_dir, shell=True)
+    # p = subprocess.Popen(['osrm-routed ../map.osrm --algorithm=MLD --port={}'.format(port)], cwd=osrm_dir, shell=True)
+    p = subprocess.call(['osrm-extract ../map.osm'], cwd=osrm_dir, shell=True)
+    p = subprocess.call(['osrm-partition ../map.osm'], cwd=osrm_dir, shell=True)
+    p = subprocess.call(['osrm-customize ../map.osm'], cwd=osrm_dir, shell=True)
+    p = subprocess.Popen(['osrm-routed --algorithm=MLD ../map.osrm --port={}'.format(port)], cwd=osrm_dir, shell=True)
     return p
 
 

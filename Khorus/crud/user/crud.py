@@ -4,6 +4,11 @@ from temp import users as users_cache
 from sanic.response import json
 
 
+@bp.route('/', methods=['GET'])
+async def all_users(request):
+    return json(await users.find([], {}, {}))
+
+
 @bp.route('/<user>/@location', methods=['GET'])
 @privileges('porter', 'applicator')
 async def get_location(request, payload, user, ):

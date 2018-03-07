@@ -24,7 +24,7 @@ async def _put(request, payload, _id=None, **kwargs):
     options = []
     d = deepcopy(obj)
     for pay, _type, address in minus:
-        _d, key = dot_notation(d, address)
+        _d, key, flag = dot_notation(d, address)
         _d[key] = payload[pay]
 
     if _id:
@@ -33,11 +33,7 @@ async def _put(request, payload, _id=None, **kwargs):
         d["crate"]["id"] = str(ObjectId())
 
     for form, _type, address in retrieval:
-        print(d)
-        print(address)
-        _d, key = dot_notation(d, address)
-        print(_d)
-        print(key)
+        _d, key, flag = dot_notation(d, address)
         _d[key] = kwargs[form]
     d['timeline']['init']['at'] = datetime.now()
 
