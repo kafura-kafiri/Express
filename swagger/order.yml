@@ -1,0 +1,327 @@
+paths:
+  /<_id>/unassigned:
+    post:
+      tags:
+      - providers
+      summary: all unasigned orders
+      operationId: unassigned
+      description: |
+        for provider with _id=<_id> it passes all unassigned orders
+      produces:
+      - application/json
+      parameters:
+      - in: form
+        name: token
+        description: jwt token
+        required: true
+        type: jwt
+      - in: body
+        name: _id
+        description: provider id
+        schema:
+          $ref: '#/providers/_id'
+      responses:
+        200: OK
+        400: invalid input
+        403: not authorized
+
+  /history-back:<{day}>:
+    post:
+      tags:
+      - porters
+      summary: all done orders by current porter
+      operationId: history_from
+      description: |
+        for current porter it passes all done orders for the day <day> days before today
+      produces:
+      - application/json
+      parameters:
+      - in: form
+        name: token
+        description: jwt token
+        required: true
+        type: jwt
+      - in: body
+        name: day
+        description: days before today
+        required: true
+        type: int
+        format: int32
+      responses:
+        200: json
+        403: not authrized
+
+  /providers/<_id>/orders:
+    post:
+      tags:
+      - applicants
+      - providers
+      summary: insert an order
+      operationId: insert
+      description: |
+        for that provider it insert new unassigned order
+      produces:
+      - application/success_code
+      parameters:
+      - in: form
+        name: token
+        description: jwt token
+        required: true
+        type: jwt
+      - in: body
+        name: _id
+        description: provider id
+        schema:
+          $ref: '#/providers/_id'
+      - in: form
+        name:
+  /providers/<_id>/orders/<order_id>:
+    delete:
+      tags:
+        - applicants
+        - providers
+      summary: delete an order
+      operationId: delete
+      description: for this provider it delete this order
+      produces:
+      - application/success_code
+      parameters:
+      - in: form
+        name: token
+        description: jwt token
+        required: true
+        type: jwt
+      - in: body
+        name: _id
+        description: provider id
+        schema:
+          $ref: '#/providers/_id'
+      responses:
+        200: OK
+        400: not authorized
+
+  /providers/<_id>/orders/<orders_id>/@delay:<delay>:
+    post:
+      tags:
+      - applications
+      - trasmitters
+      - applicants
+      summary: set delay for this order
+      operationId: delete
+      description: for this provider and this orderr it set delay
+      produces:
+      - application/success_code
+      parameter:
+      - in: form
+        name: token
+        description: jwt token
+        required: true
+        type: jwt
+      - in: body
+        name: _id
+        description: provider id
+        schema:
+          $ref: '#/providers/_id'
+      - in: body
+        name: order_id
+        description: order id
+        scehma:
+          $ref: '#/providers/_id/orders/<order_id>'
+      - in: body
+        name: delay
+        description: delay in seconds
+        schema:
+          $ref: '#/providers/_id/orders/order_id/@delay:<delay>'
+      rescoponses:
+        200: OK
+        403: unauthorized
+        400: bad input format
+
+  /providers/<_id>/orders/<order_id>/@status:
+    post:
+      tags:
+      - applicants
+      - transmitters
+      - receivers
+      summary:
+        get status of the order in this provider area
+      operationId:
+        get_status
+      description:
+        get the last position in timeline of this order
+      produces:
+      - application/json
+      parameter:
+      - in: form
+        name: token
+        description: jwt token
+        required: true
+        type: jwt
+      - in: body
+        name: _id
+        description: provider id
+        schema:
+          $ref: '#/providers/_id'
+      - in: body
+        name: order_id
+        description: order id
+        scehma:
+          $ref: '#/providers/_id/orders/<order_id>'
+      rescoponses:
+        200: json of status containing time at and author and status
+        403: unauthorized
+        400: bad input format
+
+  /providers/<_id>/orders/<order_id>/@status:<stauts>:
+    post:
+      tags:
+      - applicants
+      - transmitters
+      - receivers
+      summary:
+        set stuts of the order in this provider area
+      operationId:
+        set_status
+      description:
+        create a new sub entry and insert it in timeline of this order
+      produces:
+      - application/success_code
+      parameter:
+      - in: form
+        name: token
+        description: jwt token
+        required: true
+        type: jwt
+      - in: body
+        name: _id
+        description: provider id
+        schema:
+          $ref: '#/providers/_id'
+      - in: body
+        name: order_id
+        description: order id
+        scehma:
+          $ref: '#/providers/_id/orders/<order_id>'
+      - in: body
+        name: status
+        description: keyword to specify status of this order
+        schema:
+          $ref: '#/providers/_id/orders/order_id/@status:<status>'
+      rescoponses:
+        200: OK
+        403: unauthorized
+        400: bad input format
+
+  /providers/<_id>/orders/<order_id>/@porter:<porter_id>:
+  /provvider/<_id>/orders/<order_id>/@porter:
+    post:
+      tags:
+      - applicants
+      - transmitters
+      - receivers
+      summary:
+        it set a porter to this order
+      operationId:
+        set_porter
+      description:
+        if you don't give porter it get's it from current user if he was a porter
+      produces:
+      - application/success_code
+      parameter:
+      - in: form
+        name: token
+        description: jwt token
+        required: true
+        type: jwt
+      - in: body
+        name: _id
+        description: provider id
+        schema:
+          $ref: '#/providers/_id'
+      - in: body
+        name: order_id
+        description: order id
+        scehma:
+          $ref: '#/providers/_id/orders/<order_id>'
+      - in: body
+        name: porter_id
+        description: _id or this porter
+        schema:
+          $ref: '#/providers/_id/orders/order_id/@porter:<porter_id>'
+      rescoponses:
+        200: OK
+        403: unauthorized
+        400: bad input format
+  /providers/<_id>/orders/<order_id>/@location:
+    post:
+      tags:
+      - applicants
+      - transmitters
+      - receivers
+      summary:
+        get location of this assigned order
+      operationId:
+        location
+      description:
+        if this order is assigned so a porter is on way to do this so it has a position each time
+      produces:
+        application/json
+      parameter:
+      - in: form
+        name: token
+        description: jwt token
+        required: true
+        type: jwt
+      - in: body
+        name: _id
+        description: provider id
+        schema:
+          $ref: '#/providers/_id'
+      - in: body
+        name: order_id
+        description: order id
+        scehma:
+          $ref: '#/providers/_id/orders/<order_id>'
+      rescoponses:
+        200: json {
+          lat:
+          lng:
+        }
+        403: unauthorized
+  /providers/<_id>/orders/<order_id>/@ack:<ack>:
+    post:
+      tags:
+      - porters
+      summary:
+        porter can tell server his descision about this order in this provider
+      operationId:
+        location
+      description:
+        when server send notification to condide porters they can accept or reject them.
+        they let server know about their descision with this endpoint.
+      produces:
+        json/success_code
+      parameter:
+      - in: form
+        name: token
+        description: jwt token
+        required: true
+        type: jwt
+      - in: body
+        name: _id
+        description: provider id
+        schema:
+          $ref: '#/providers/_id'
+      - in: body
+        name: order_id
+        description: order id
+        scehma:
+          $ref: '#/providers/_id/orders/<order_id>'
+      - in: body
+        name: ack
+        description: porter response
+        schema:
+          $ref: '#/providers/_id/orders/order_id/@ack:<ack>'
+      rescoponses:
+        200: success code
+        403: unauthorized

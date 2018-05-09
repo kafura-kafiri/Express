@@ -1,0 +1,51 @@
+post:
+  tags:
+    - porters
+  summary: send current location to server
+  operationId: send_location
+  description: |
+    by sending your [lat, lng] you can store your current location to db
+  produces:
+  - application/success_code
+  parameters:
+  - in: form
+    name: token
+    description: jwt token
+    required: true
+    type: float
+  - in: form
+    name: lat
+    description: pass a lattitude
+    required: true
+    type: float
+  - in: form
+    name: lng
+    description: pass a lungitude
+    required: true
+    type: float
+  - in: form
+    name: v_x
+    description: pass a speed alongside x
+    required: false
+    type: float
+  - in: form
+    name: v_y
+    description: pass a speed alongside y
+    required: false
+    type: float
+  - in: form
+    name: a_x
+    description: pass an acceleration alongside x
+    required: false
+    type: float
+  - in: form
+    name: a_y
+    description: pass an acceleration alongside y
+    required: false
+    type: float
+  responses:
+    200:
+      description: saved properly
+    400:
+      description: |
+        bad input type
